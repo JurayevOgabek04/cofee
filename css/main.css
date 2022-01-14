@@ -1,0 +1,187 @@
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.site-header__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.site-header__logo {
+  text-decoration: none;
+}
+
+.nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.nav__item + .nav__item {
+  margin-left: 20px;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.site-about {
+  background: url(/img/img.png) no-repeat;
+  height: 450px;
+}
+
+.site-about__text {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48 px;
+  color: #FEFCF7;
+}
+
+.site-about > p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  width: 450px;
+}
+
+.site-about__text {
+  padding-left: 90px;
+  padding-top: 120px;
+}
+
+.site-about > p {
+  padding-left: 90px;
+}
+
+.commitment {
+  background-image: url(/img/img-our.png);
+  background-repeat: no-repeat;
+  height: 520px;
+  margin-top: 150px;
+  margin-left: 80px;
+}
+
+.commitment__text {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #333D4B;
+  margin-left: 800px;
+  padding-top: 100px;
+}
+
+.commitment > p {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #333D4B;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  margin-left: auto;
+  width: 600px;
+}
+
+.quelity {
+  background-image: url(/img/img-qoulity.png);
+  background-repeat: no-repeat;
+  height: 500px;
+}
+
+.quelity__text {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 40px;
+  line-height: 48px;
+  color: #FEFCF7;
+  padding-top: 100px;
+  padding-left: 90px;
+}
+
+.quelity__texts {
+  font-family: Barlow;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 26px;
+  color: #FEFCF7;
+  mix-blend-mode: normal;
+  opacity: 0.8;
+  width: 540px;
+  padding-left: 90px;
+}
+
+.our-head__text {
+  font-family: Fraunces 9pt;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 24px;
+  line-height: 32px;
+  color: #83888F;
+}
+
+.site-footer__wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #2C343E;
+}
+
+.site-footer__logo {
+  text-decoration: none;
+  margin-top: 47px;
+  margin-bottom: 47px;
+  margin-left: 30px;
+  margin-right: 100px;
+}
+
+.footer-nav__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+.footer-nav__item + .footer-nav__item {
+  margin-left: 20px;
+}
+
+.footer-nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #83888F;
+}
+
+.footer-nav__link:active {
+  color: #FEFCF7;
+}
+
+.logotip {
+  margin-left: auto;
+  margin-right: 50px;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,40 @@
+.site-footer__wrapper{
+    display: flex;
+    align-items: center;
+    background: #2C343E;
+}
+
+.site-footer__logo{
+    text-decoration: none;
+    margin-top: 47px;
+    margin-bottom: 47px;
+    margin-left: 30px;
+    margin-right: 100px;
+    
+}
+
+.footer-nav__list{
+    display: flex;
+    list-style: none;
+    
+}
+
+.footer-nav__item + .footer-nav__item{
+    margin-left: 20px;
+
+}
+
+.footer-nav__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #83888F;
+    &:active{
+        color: #FEFCF7;;
+    }
+}
+
+.logotip{
+    margin-left: auto;
+    margin-right: 50px;
+    
+}
