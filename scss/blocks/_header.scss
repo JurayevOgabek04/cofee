@@ -28,6 +28,7 @@
 .site-about{
     background: url(/img/img.png) no-repeat;
     height: 450px;
+    border-radius: 10px;
 }
 
 .site-about__text{
@@ -60,4 +61,22 @@
 
 .site-about > p{
     padding-left: 90px;
+}
+
+.site-header__hamburg-btn{
+    background-color: transparent;
+    border: none;
+    display: none;
+}
+
+
+@media only screen and (max-width: 980px){
+    .site-header__hamburg-btn{
+        display: block;
+
+    }
+
+    .nav{
+        display: none;
+    }
 }
